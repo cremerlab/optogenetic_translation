@@ -18,21 +18,23 @@ as described in Dai et al. 2016.
 ## Primers
 | **Primer Name** | **Sequence (5' -> 3')** | **Notes** |
 |--|--|--|
-|GC125_pZE31-MBP_FWD | | Anneals to pSub-MBP-sfGFP, with homology to promoter of pSKA413. Amplifies MBP-linker |
-|GC126_pZE31-MBP_REV | | Anneals to pSub-MBP-sfGFP, with homology to promoter of pSKA413. Amplifies MBP-linker |
-|GC127_pZE31-GFP_FWD | | Anneals to pSKA413. Amplifies backbone. |
-|GC128_pZE31-GFP_REV | | Anneals to pSKA41. Amplifies backbone. |
-|GC129_pZE31-MBP_REV | | Sequencing primer. Reads reverse strand from beginning of sfGFP to promoter |
-|GC130_pZE31-MBP_FWD | | Sequencing primer. Reads forward strand from CpcG2d59 promoter into insert |
+|GC125_pZE31-MBP_FWD | `aggcacgtaaggcaccatataatgaaa` `actgaagaaggtaaactggtaatctg` | Anneals to pSub-MBP-sfGFP, with homology to promoter of pSKA413. Amplifies MBP-linker |
+|GC126_pZE31-MBP_REV | `gtgaaaagttcttctcctttacg` `catggatccaccggaaccttg`| Anneals to pSub-MBP-sfGFP, with homology to promoter of pSKA413. Amplifies MBP-linker |
+|GC127_pZE31-GFP_FWD | `atgcgtaaaggagaagaacttttcac`| Anneals to pSKA413. Amplifies backbone. |
+|GC128_pZE31-GFP_REV | `tatatggtgccttacgtgcct` | Anneals to pSKA41. Amplifies backbone. |
+|GC129_pZE31-MBP_REV | `atgttgcatcaccttcaccc` | Sequencing primer. Reads reverse strand from beginning of sfGFP to promoter |
+GC130_pZE31-MBP_FWD| `cttcaattttactttgttaggatcgcattc` | Sequencing primer. Reads forward strand from CpcG2d59 promoter into insert |
 
 
 ## Strain + Locations 
 | **Strain Identifier** | **Notes** | 
 |--| --|
+| GC001 | WT E. coli (NCM3722) |
+| GC121 | pSKA413 in DH5alpha |
+| GC122 | pSub-MBP-sfGFP in DH5alpha|
 
 
-
-## Steps
+## Cloning Steps
 
 <details>
 
