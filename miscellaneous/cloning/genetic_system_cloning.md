@@ -38,7 +38,7 @@ GC130_pZE31-MBP_FWD| `cttcaattttactttgttaggatcgcattc` | Sequencing primer. Reads
 
 <details>
 
-<summary><b>January 23 - 24, 2024: Amplification of cloning fragments</b></summary>
+<summary><b>January 23 - 25, 2024: Amplification of cloning fragments</b></summary>
 
 ### First attempt
 The first attempt to clone pZE31-ccaS/ccaR_MBP-sfGFP from agar stabs received from 
@@ -74,6 +74,18 @@ I purified the pSKA413 plasmid from a saturated overnight culture yielding 50 µ
 6. Final elongation @ 72° C for 5 min
 7. Hold @ 4° C
 
-... but saw no bands (maybe some faint primer dimers). I'll need to redesign primers I think. 
+... but saw no bands (maybe some faint primer dimers). 
+
+I set up another gradient PCR using the same settings as that above, but changing 
+the elongation time (step 4) to 6m15s, as suggested by Promega (1m per kb). I ran 
+this PCR overnight and ran a gel in the morning. 
+
+![](gel_images/2024-01-25_gel1.png)
+
+
+This seemed to work, but I had *a lot* of minor product. I decided to move forward 
+in cleaning up this fragment (and the MBP tag insert). If the Gibson assembly does not 
+work well, I should re-run the PCR with a 55° C annealing temperature and do a gel 
+extraction of the correct band. 
 
 </details>
