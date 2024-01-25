@@ -84,8 +84,7 @@ this PCR overnight and ran a gel in the morning.
 
 
 This seemed to work, but I had *a lot* of minor product. I decided to move forward 
-in cleaning up this fragment (and the MBP tag insert). If the Gibson assembly does not 
-work well, I should re-run the PCR with a 55° C annealing temperature and do a gel 
-extraction of the correct band. 
+in cleaning up this fragment (and the MBP tag insert), yieling ≈65 ng / uL of insert
+and 0 for the vector. I'll rerun both amplifications and do a gel extraction.  
 
 </details>
