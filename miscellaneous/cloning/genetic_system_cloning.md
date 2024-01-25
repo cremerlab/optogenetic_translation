@@ -74,5 +74,6 @@ I purified the pSKA413 plasmid from a saturated overnight culture yielding 50 µ
 6. Final elongation @ 72° C for 5 min
 7. Hold @ 4° C
 
+... but saw no bands (maybe some faint primer dimers). I'll need to redesign primers I think. 
 
 </details>
