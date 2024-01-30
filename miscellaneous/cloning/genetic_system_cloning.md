@@ -68,7 +68,7 @@ I purified the pSKA413 plasmid from a saturated overnight culture yielding 50 µ
 
 1. Boil @ 98° C for 2m
 2. Denaturation @ 95° C for 30s 
-3. Annealing @ 60° C for 30s 
+3. Annealing @ 55 - 68° C for 30s 
 4. Elongation @ 72° C for 3m30s 
 5. Return to #2 x 24
 6. Final elongation @ 72° C for 5 min
@@ -86,5 +86,28 @@ this PCR overnight and ran a gel in the morning.
 This seemed to work, but I had *a lot* of minor product. I decided to move forward 
 in cleaning up this fragment (and the MBP tag insert), yieling ≈65 ng / uL of insert
 and 0 for the vector. I'll rerun both amplifications and do a gel extraction.  
+
+</details>
+
+
+<details>
+<summary><b>January 29, 2024: Amplification of Fragments for Gel Extraction</b></summary>
+
+I set up 200µL total reaction volume (4 x 50µL) for both the insert and the vector using
+the following amplification protocol:
+
+1. Boil @ 98° C for 2m
+2. Denaturation @ 95° C for 30s 
+3. Annealing @ 55 - 68° C for 30s 
+4. Elongation @ 72° C for 3m30s 
+5. Return to #2 x 24
+6. Final elongation @ 72° C for 5 min
+7. Hold @ 4° C
+
+I loaded ≈150 µL total of each reaction in the gel, which is shown below:
+
+![](gel_images/2024-01-29_gel1.png)
+
+I cut out the relevant bands from the gel to do a purification followed by a gibson assembly.
 
 </details>
