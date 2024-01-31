@@ -18,12 +18,12 @@ as described in Dai et al. 2016.
 ## Primers
 | **Primer Name** | **Sequence (5' -> 3')** | **Notes** |
 |--|--|--|
-|GC125_pZE31-MBP_FWD | `aggcacgtaaggcaccatataatgaaa` `actgaagaaggtaaactggtaatctg` | Anneals to pSub-MBP-sfGFP, with homology to promoter of pSKA413. Amplifies MBP-linker |
-|GC126_pZE31-MBP_REV | `gtgaaaagttcttctcctttacg` `catggatccaccggaaccttg`| Anneals to pSub-MBP-sfGFP, with homology to promoter of pSKA413. Amplifies MBP-linker |
-|GC127_pZE31-GFP_FWD | `atgcgtaaaggagaagaacttttcac`| Anneals to pSKA413. Amplifies backbone. |
-|GC128_pZE31-GFP_REV | `tatatggtgccttacgtgcct` | Anneals to pSKA41. Amplifies backbone. |
-|GC129_pZE31-MBP_REV | `atgttgcatcaccttcaccc` | Sequencing primer. Reads reverse strand from beginning of sfGFP to promoter |
-GC130_pZE31-MBP_FWD| `cttcaattttactttgttaggatcgcattc` | Sequencing primer. Reads forward strand from CpcG2d59 promoter into insert |
+|GCp125_pZE31-MBP_FWD | `aggcacgtaaggcaccatataatgaaa` `actgaagaaggtaaactggtaatctg` | Anneals to pSub-MBP-sfGFP, with homology to promoter of pSKA413. Amplifies MBP-linker |
+|GCp126_pZE31-MBP_REV | `gtgaaaagttcttctcctttacg` `catggatccaccggaaccttg`| Anneals to pSub-MBP-sfGFP, with homology to promoter of pSKA413. Amplifies MBP-linker |
+|GCp127_pZE31-GFP_FWD | `atgcgtaaaggagaagaacttttcac`| Anneals to pSKA413. Amplifies backbone. |
+|GCp128_pZE31-GFP_REV | `tatatggtgccttacgtgcct` | Anneals to pSKA41. Amplifies backbone. |
+|GCp129_pZE31-MBP_REV | `atgttgcatcaccttcaccc` | Sequencing primer. Reads reverse strand from beginning of sfGFP to promoter |
+|GCp130_pZE31-MBP_FWD| `cttcaattttactttgttaggatcgcattc` | Sequencing primer. Reads forward strand from CpcG2d59 promoter into insert |
 
 
 ## Strain + Locations 
@@ -91,7 +91,7 @@ and 0 for the vector. I'll rerun both amplifications and do a gel extraction.
 
 
 <details>
-<summary><b>January 29, 2024: Amplification of Fragments for Gel Extraction</b></summary>
+<summary><b>January 29 - 30 , 2024: Amplification of Fragments for Gel Extraction</b></summary>
 
 I set up 200µL total reaction volume (4 x 50µL) for both the insert and the vector using
 the following amplification protocol:
@@ -108,6 +108,32 @@ I loaded ≈150 µL total of each reaction in the gel, which is shown below:
 
 ![](gel_images/2024-01-29_gel1.png)
 
-I cut out the relevant bands from the gel to do a purification followed by a gibson assembly.
+I cut out the relevant bands from the gel to do a purification followed by a gibson assembly, 
+and got terrible yields, with ≈15 and ≈180 ng / µL for the vector and insert, respectively. 
+
+Regardless, I set up a Gibson assembly using ≈60 ng of vector and ≈180 ng of insert 
+in a total of 10µL reaction volume. I incubated at 50°C for 45 minutes and drop dialyzed 
+for 45 m before transforming into NCM3722 competence cells. After 1 hour of recovery in LB,
+I plated 10, 100, and whole culture volumes onto plates.
+
+</details>
+
+<details>
+<summary><b>January 31, 2024: Colony PCR of Possible Transformants</b></summary>
+There were 5 major colonies (one minor) on the whole-cell transformation plate 
+from yesterday. I picked these 5 plus one of (what I think is) pSKA413 in NCM3722
+and set up a colony PCR amplifying with primers GCp129 and GCp130. I also ran 
+one positive control using around 2 ng of the  purified pSKA413 plasmid. I ran 
+the colony PCR with the following program. 
+
+1. Boil @ 98° C for 8m
+2. Denaturation @ 95° C for 30s 
+3. Annealing @ 60° C for 30s 
+4. Elongation @ 72° C for 2m 
+5. Return to #2 x 24
+6. Final elongation @ 72° C for 5 min
+7. Hold @ 4° C
+
+<!-- I ran ≈ 10 µL of each sample on a 1.5% agarose gel with a 1 Kbplus ladder, shown below -->
 
 </details>
