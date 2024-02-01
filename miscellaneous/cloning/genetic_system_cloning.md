@@ -27,11 +27,13 @@ as described in Dai et al. 2016.
 
 
 ## Strain + Locations 
+
 | **Strain Identifier** | **Notes** | 
 |--| --|
 | GC001 | WT E. coli (NCM3722) |
 | GC121 | pSKA413 in DH5alpha |
 | GC122 | pSub-MBP-sfGFP in DH5alpha|
+| GC123 | pSKA413 in NCM3722 |
 
 
 ## Cloning Steps
