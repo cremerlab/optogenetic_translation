@@ -41,6 +41,8 @@ illuminated by the neighboring vessel. This is something that needs more careful
 control in future experiments if we will still use the PSI Multicultivator for
 these experiments.
 
+![](data/2024-01-31_cultivator_image.png)
+
 ## Materials 
 ### Strains
 | Strain Identifier | Plasmid | Host Strain | Species | Short-hand |
@@ -48,8 +50,8 @@ these experiments.
 | GC001 | pSKA413 | NCM3722 | E. coli | WT |
 
 ### Media
-
-
+This experiment used N-C- acetate medium with micronutrients, as 
+[described in the media recipe list](../../../miscellaneous/media_recipes.md).  
 
 ## Protocol 
 1. A seed culture was started by inoculating 3 mL of LB supplemented with 50 µg / mL chloramphenicol
@@ -62,7 +64,9 @@ into PSI Multicultivator reaction vessels.
 
 3. The vessels were stationed into the PSI Multicultivator waterbath, set at 37° C. 
 Glass tubes were affixed to the sterilized bubbling line and the flow rate was 
-adjusted to be vigorous and visually similar across culture tubes. I estimate there are ≈ 100 small bubbles per second. 
+adjusted to be vigorous and visually similar across culture tubes. I estimate there are ≈ 100 small bubbles per second,
+shown in the video below:
+![](data/2024-01-31_bubbling.gif) 
 
 4. The OD sensors were zeroed on the dilute medium and the lights were turned on as 
 described in the **Experiment Design** section of these notes. 
