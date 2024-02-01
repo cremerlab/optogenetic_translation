@@ -44,7 +44,9 @@ these experiments.
 ![](data/2024-01-31_cultivator_image.png)
 
 ## Materials 
+
 ### Strains
+
 | Strain Identifier | Plasmid | Host Strain | Species | Short-hand |
 |:--:|:--:|:--:|:--:|
 | GC001 | pSKA413 | NCM3722 | E. coli | WT |
@@ -66,6 +68,7 @@ into PSI Multicultivator reaction vessels.
 Glass tubes were affixed to the sterilized bubbling line and the flow rate was 
 adjusted to be vigorous and visually similar across culture tubes. I estimate there are ≈ 100 small bubbles per second,
 shown in the video below:
+
 ![](data/2024-01-31_bubbling.gif) 
 
 4. The OD sensors were zeroed on the dilute medium and the lights were turned on as 
