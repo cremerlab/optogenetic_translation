@@ -119,7 +119,9 @@ I plated 10, 100, and whole culture volumes onto plates.
 </details>
 
 <details>
-<summary><b>January 31, 2024: Colony PCR of Possible Transformants</b></summary>
+<summary><b>January 31, 2024: Colony PCR of Possible Transformants and Vector Reamplification</b></summary>
+
+### Screening Transformants
 There were 5 major colonies (one minor) on the whole-cell transformation plate 
 from yesterday. I picked these 5 plus one of (what I think is) pSKA413 in NCM3722
 and set up a colony PCR amplifying with primers GCp129 and GCp130. I also ran 
@@ -128,12 +130,37 @@ the colony PCR with the following program.
 
 1. Boil @ 98° C for 8m
 2. Denaturation @ 95° C for 30s 
-3. Annealing @ 60° C for 30s 
+3. Annealing @ 60° C for 58s (Meant to set the annealing temp to 58, whoops.)
 4. Elongation @ 72° C for 2m 
 5. Return to #2 x 24
 6. Final elongation @ 72° C for 5 min
 7. Hold @ 4° C
 
-<!-- I ran ≈ 10 µL of each sample on a 1.5% agarose gel with a 1 Kbplus ladder, shown below -->
+I ran ≈ 10 µL of each sample on a 1.5% agarose gel with a 1 Kbplus ladder, shown below:
+![](gel_images/2024-01-31_gel1.png)
+
+All transformants came back positive for containing only pSKA413, matching with 
+the positive control (last lane). This isn't too surprising considering I had 
+such a horrible yield of purifying the vector from the gel. 
+
+
+### Reamplification of pSKA413 Vector
+
+I think part of the low yield of the pSKA413 vector comes from the fact that 
+using the Green GoTAQ polymerase requires a 6m elongation time. I reset the vector
+amplification using GCp127 and GCp128 using a Q5 polymerase following the 
+instructions to a tee. I set up a 4 x 50µL reaction using the purified pSKA413 as 
+a template with a final concentration of around 2 ng / reaction. I ran the PCR 
+with the following protocol:
+
+1. Boil @ 30° C for 8m
+2. Denaturation @ 98° C for 10s 
+3. Annealing @ 64° C for 30s 
+4. Elongation @ 72° C for 3m 
+5. Return to #2 x 24
+6. Final elongation @ 72° C for 2 min
+7. Hold @ 10° C
+
+
 
 </details>
