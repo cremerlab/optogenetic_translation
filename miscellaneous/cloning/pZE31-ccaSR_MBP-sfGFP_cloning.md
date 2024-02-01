@@ -121,13 +121,13 @@ I plated 10, 100, and whole culture volumes onto plates.
 </details>
 
 <details>
-<summary><b>January 31, 2024: Colony PCR of Possible Transformants and Vector Reamplification</b></summary>
+<summary><b>January 31, 2024 - February 1, 2024: Screeening Transformants and Restarting Gibson</b></summary>
 
 ### Screening Transformants
 There were 5 major colonies (one minor) on the whole-cell transformation plate 
 from yesterday. I picked these 5 plus one of (what I think is) pSKA413 in NCM3722
 and set up a colony PCR amplifying with primers GCp129 and GCp130. I also ran 
-one positive control using around 2 ng of the  purified pSKA413 plasmid. I ran 
+one positive control using around 2 ng of the purified pSKA413 plasmid. I ran 
 the colony PCR with the following program. 
 
 1. Boil @ 98° C for 8m
@@ -157,12 +157,34 @@ with the following protocol:
 
 1. Boil @ 30° C for 8m
 2. Denaturation @ 98° C for 10s 
-3. Annealing @ 64° C for 30s 
+3. Annealing @ 66° C for 30s 
 4. Elongation @ 72° C for 3m 
 5. Return to #2 x 24
 6. Final elongation @ 72° C for 2 min
 7. Hold @ 10° C
 
+I ran ≈ 5 µL of the product on a gel along with some of the MBP insert (to make 
+sure that is okay)
+
+![](gel_images/2024-01-31_gel2.png)
+
+This is much better!
 
 
+### Purification and Gibson Assembly
+I purified the vector using the Zymogen DNA Clean+Concentrate kit and got a nice 
+yield of around 290 ng / µL. I set up a Gibson assembly (20 µL reaction) following the instructions 
+using 0.1 pmol of vector (≈ 360 ng) and 0.3 pmol insert (≈ 230 ng) and incubated 
+the mixture at 50° C for 15 min, followed by a 4° hold. I kept it at 4° C while I 
+prepped new competence cells and set up two transformations. 
+
+<!-- 1. I transformed by diluting 5 µL of the mixture 3 fold with water, then transforming 
+2 µL of the mixture. 
+
+2. I drop dialyzed 10 µL of the reaction and transformed 5 µL. 
+ -->
+
+<!-- For each transformation, I  -->
 </details>
+
+<details>
