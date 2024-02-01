@@ -48,7 +48,7 @@ these experiments.
 ### Strains
 
 | Strain Identifier | Plasmid | Host Strain | Species | Short-hand |
-|:--:|:--:|:--:|:--:|
+|:--:|:--:|:--:|:--:|:--:|
 | GC001 | pSKA413 | NCM3722 | E. coli | WT |
 
 ### Media
