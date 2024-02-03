@@ -176,15 +176,40 @@ I purified the vector using the Zymogen DNA Clean+Concentrate kit and got a nice
 yield of around 290 ng / µL. I set up a Gibson assembly (20 µL reaction) following the instructions 
 using 0.1 pmol of vector (≈ 360 ng) and 0.3 pmol insert (≈ 230 ng) and incubated 
 the mixture at 50° C for 15 min, followed by a 4° hold. I kept it at 4° C while I 
-prepped new competence cells and set up two transformations. 
+prepped new competence cells and set up a transformation. I diluted 5 µL of Gibson 
+by mixing with 10 µL of water and then added 3 µL of this mixture to freshly prepared 
+electrocompetence cells. I recovered the cells for one hour and plated on selection plates.
 
-<!-- 1. I transformed by diluting 5 µL of the mixture 3 fold with water, then transforming 
-2 µL of the mixture. 
-
-2. I drop dialyzed 10 µL of the reaction and transformed 5 µL. 
- -->
-
-<!-- For each transformation, I  -->
 </details>
-
 <details>
+
+<summary><b>February 2, 2024 - Screening of Transformants</b></summary>
+There were ≈ 50 colonies on the whole-culture plate. I selected 15 of these colonies 
+and set up a PCR using GCp129 and GCp130 to amplify where the MBP insert should be. 
+I used the following protocol: 
+
+1. Boil @ 98° C for 8m
+2. Denaturation @ 95° C for 30s 
+3. Annealing @ 60° C for 15s
+4. Elongation @ 72° C for 2m 
+5. Return to #2 x 24
+6. Final elongation @ 72° C for 5 min
+7. Hold @ 4° C
+
+I ran ≈ 5 µL from each reaction on the following gel:
+
+![](./gel_images/2024-02-02_gel1.png)
+
+
+Which is yet another failure. This suggests that all of  my transformants are 
+residual WT vector, which is concerning. I checked my primers using the NEBBuilder
+tool and they make sense, so I don't think it's a Gibson issue. I ran a DpnI digest 
+on the source vector (total of ≈1 µg of DNA), and purified it using a Zymogen 
+DNA Clean+Concentrate kit, yielding ≈ 10 µL of 45 ng / µL vector. I loaded 2 µL 
+on a 1.5% agarose gel
+
+![](gel_images/2024-02-02_gel2.png)
+
+This looks much cleaner than when I first ran the PCR, which is good. Hopefully
+this will be sufficient to get a Gibson assembly that works.
+</details>
