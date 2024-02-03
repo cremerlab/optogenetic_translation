@@ -1,7 +1,8 @@
 ---
-status: In progress
-reason: 
+status: Rejected
+reason: This experiment revealed we are missing an important component of the system! D'oh!
 ---
+
 
 # 2024-02-01 Pilot Plasmid Test
 
@@ -55,6 +56,28 @@ these experiments.
 This experiment used N-C- acetate medium with micronutrients, as 
 [described in the media recipe list](../../../miscellaneous/media_recipes.md).  
 
+
+## Results
+1. Growth rates look pretty good considering there was no careful preculturing 
+of the strain. 
+2. Fluorescence analysis is bad! Appears that sfGFP expression *decreases* with 
+increasing 535 nm exposure!
+
+> [!WARNING]  
+> I realized that htese strains *do not* have pPL-PCB(S), which is necessary for 
+> *E. coli* to express phycocyanobilin, the active chromophore which allows this 
+> system to work. I contacted Jeffery J. Tabor at Rice University, who will send
+> us the plasmid. This experiment is then scrapped.
+
+### Plots
+**Growth Rate Analysis**
+![](./output/2024-01-31_growth_curves.png)
+
+**GFP Expression Analysis**
+![](./output/2024-01-31_foldchange_analysis.png)
+
+
+
 ## Protocol 
 1. A seed culture was started by inoculating 3 mL of LB supplemented with 50 µg / mL chloramphenicol
 with a colony of GC123 and was grown in a 37° C water bath for 2 - 3 hours until 
@@ -77,3 +100,8 @@ described in the **Experiment Design** section of these notes.
 5. OD_680nm_ measurements were taken every 5 minutes after a 30s cessation in bubbling. These measurements were 
 taken for the duration of the experiment. 
 
+6. After approximately 20 hours of growth, 200 µL samples were taken from each 
+vessel and transferred to a black-walled, flat-bottom, glass plate. The OD<sub>600nm</sub> 
+and the sfGFP florescence (485nm excitation / 535nm emission) was measured using 
+a Tecan Infinite F Nano<sup>+</sup> plate reader. The fold-change was calculated
+relative to vessel 1. 
