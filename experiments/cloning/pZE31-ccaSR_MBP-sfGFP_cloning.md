@@ -222,4 +222,38 @@ was less rigorous about pmols of vector and insert and used ≈ 200 ng of vector
 and transformed 5 µL of 3 fold diluted product and 10 µL of drop dialyzed product 
 into freshly prepared comp cells with time constants of 3.4 and 4.8 ms, respectively. 
 I plated 100 µL aliquots and the spun-down whole culture. 
+
+The next day, I selected 15 candidate transformants and set up colony PCRs 
+using GC129 and GC130 with the following program:
+
+1. Boil @ 98° C for 8m
+2. Denaturation @ 95° C for 30s 
+3. Annealing @ 60° C for 15s
+4. Elongation @ 72° C for 2m 
+5. Return to #2 x 24
+6. Final elongation @ 72° C for 5 min
+7. Hold @ 4° C
+
+I ran 10µL of each reaction on a 1.25% agarose gel, as follows
+
+![](gel_images/2024-02-06_gel1.png)
+
+Once again, all of my transformants are residual plasmid (!), which means that the 
+DpnI digestion did nothing. 
+
+Something is outright not working with these fragments. I redesigned the primers 
+using the [NEBuilder tool](https://nebuilder.neb.com/#!/) which suggested these
+primers:
+
+`GC131_pSKA413_FWD_v2`: `ggtggatccatgcgtaaaggagaagaac`
+`GC132_pSKA413_REV_v2`: `cttcagttttcattatatggtgccttacgtg`
+`GC133_MBP_FWD_v2`: `accatataatgaaaactgaagaaggtaaactgg`
+`GC134_MBP_REV_v2`: `ttacgcatggatccaccggaaccttg`
+
+
+The difference from what I designed is that there is overlap/overhangs on each primer 
+set, though the difference doesn't seem to bee too substantially different from what I did. 
+Regardless, I'll follow their suggested protocol exactly using Q5 as the base PCR
+reaction kit. 
+
 </details>
