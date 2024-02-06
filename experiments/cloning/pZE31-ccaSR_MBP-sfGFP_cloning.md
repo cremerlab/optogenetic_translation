@@ -213,3 +213,13 @@ on a 1.5% agarose gel
 This looks much cleaner than when I first ran the PCR, which is good. Hopefully
 this will be sufficient to get a Gibson assembly that works.
 </details>
+
+<details>
+<summary><b>February 5 - 6, 2024: Rerunning Gibson and Screening Transformants</b></summary>
+I set up another Gibson assembly using the  DpnI digested vector from the previous week. I 
+was less rigorous about pmols of vector and insert and used ≈ 200 ng of vector and 
+260 ng of insert. I set up a 20 µL reaction at 50° C for 30 min. I split the gibson 
+and transformed 5 µL of 3 fold diluted product and 10 µL of drop dialyzed product 
+into freshly prepared comp cells with time constants of 3.4 and 4.8 ms, respectively. 
+I plated 100 µL aliquots and the spun-down whole culture. 
+</details>

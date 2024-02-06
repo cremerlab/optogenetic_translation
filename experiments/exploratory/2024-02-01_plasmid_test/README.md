@@ -64,7 +64,7 @@ of the strain.
 increasing 535 nm exposure!
 
 > [!WARNING]  
-> I realized that htese strains *do not* have pPL-PCB(S), which is necessary for 
+> I realized that these strains *do not* have pPL-PCB(S), which is necessary for 
 > *E. coli* to express phycocyanobilin, the active chromophore which allows this 
 > system to work. I contacted Jeffery J. Tabor at Rice University, who will send
 > us the plasmid. This experiment is then scrapped.
